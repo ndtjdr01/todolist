@@ -1,0 +1,7 @@
+-goals: 
+    + click vao  hiện plan(có thể điều chỉnh)
+    + ngoài hiện tiến độ plan của goals
+
+-store:
+    +các mục hoàn thành, lưu vào 1 nơi, để tổng kết
+    
