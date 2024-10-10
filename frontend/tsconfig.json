@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "component/todo/tile.tsx", "component/todo/input.tsx", "store/items/slice-items.js", "store/store.js", "component/todo/filter.tsx", "component/todo/man.tsx", "component/nav.tsx", "app/page.tsx", "app/lib/mongodb.ts", "app/api/todos/routes.jsx", "component/plan/circle.js"],
+  "exclude": ["node_modules"]
+}
